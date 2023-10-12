@@ -1,0 +1,240 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     width: 1400px;
+     height: 890px;
+     background-color: #2f1893;
+
+ }
+
+ .nav {
+     margin: 68px 215px;
+     overflow: hidden;
+ }
+
+ .nav div.nav-right {
+     float: right;
+ }
+
+ .nav a {
+     float: left;
+     color: #fff;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 18px;
+     font-family: DM SANS;
+     font-style: normal;
+     font-weight: 500PX;
+ }
+
+ .nav a.split {
+     float: left;
+     color: white;
+     width: 111px;
+     height: 19px;
+     justify-content: center;
+     align-items: center;
+     font-style: bold;
+     font-size: 19px;
+ }
+
+ .title {
+     /* background-color: red; */
+     width: 427px;
+     height: 496px;
+     color: white;
+     margin-left: 212px;
+     margin-bottom: 270px;
+     float: left;
+ }
+
+ #aside {
+
+     width: 426px;
+     height: 217px;
+     font-family: DM sans;
+     flex-shrink: 0;
+     font-size: 52px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 70px;
+     letter-spacing: 0.1px;
+ }
+
+ #para {
+     margin-top: 24PX;
+     width: 363px;
+     height: 160px;
+     /* color: white; */
+     font-family: DM sans;
+     font-size: 22px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 32px;
+ }
+
+ .btn3 {
+     margin-top: 40px;
+     width: 157px;
+     height: 50px;
+     font-size: 18px;
+     font-weight: 500px;
+     line-height: 2px;
+     flex-shrink: 0;
+     border-radius: 100px;
+     background-color: #E93A7D;
+ }
+
+
+ .placeholder {
+     height: 600px;
+     width: 470px;
+     background-color: white;
+     float: right;
+     /* margin: 187px 215px 103px 715px; */
+     position: relative;
+     right: 225px;
+
+ }
+
+ #email,
+ #pass,
+ .btn {
+     margin: 12px;
+     width: 330px;
+     height: 50px;
+     color: #151439;
+     border-radius: 100px;
+     text-align: center;
+     border: 1px solid gray;
+ }
+
+ .btn1 div {
+     margin: 12px 137px;
+ }
+
+ .btn1 {
+     color: #fff;
+     font-weight: bold;
+     margin-top: 5px;
+     background-color: #482BE7;
+ }
+
+ .btn2 div {
+     margin: 12px 96px;
+
+ }
+
+ .btn2 {
+     color: #fff;
+     font-weight: bold;
+     margin-top: 25px;
+     background-color: #1DA1F2;
+ }
+
+ #email::placeholder {
+     margin: 12px 218px 12px 24px;
+
+ }
+
+ #email {
+     margin-top: 34px;
+ }
+
+ #pass::placeholder {
+     margin: 12px 181px 12px 24px;
+ }
+
+ .input-fields {
+     position: relative;
+     left: 70px;
+ }
+
+ .heading {
+     text-align: center;
+     color: #1e0e62;
+     font-family: DM sans;
+     font-size: 42px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 52px;
+     letter-spacing: -0.4px;
+     margin-top: 48px;
+ }
+
+
+
+ .or-container {
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ .or {
+     margin-left: 15.93px;
+     margin-right: 15.93px;
+     width: 16px;
+     height: 26px;
+     color: var(--colors-text, rgba(21, 20, 57, 0.40));
+     text-align: center;
+     /* Text / Paragraph */
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     /* 162.5% */
+     opacity: 0.9;
+ }
+
+ #chk {
+     color: vrgba(21, 20, 57, 0.40);
+     font-family: DM Sans;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 26px;
+     margin-top: 25.4px;
+     margin-left: 20px;
+ }
+
+
+ .question {
+     display: flex;
+     flex-direction: row;
+     margin: 30px 89px 43px 100px;
+ }
+
+ .q1 {
+     width: 215px;
+     height: 28px;
+     color: var(--action-primary, rgba(21, 20, 57, 0.40));
+     text-align: center;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 28px;
+     /* margin: 0 10px 0 0; */
+
+ }
+
+ .q2 {
+     width: 56px;
+     height: 28px;
+     color: var(--action-primary, #25DAC5);
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 28px;
+     /* margin: 0px 89px 43px 10px; */
+     margin-left: 10px;
+ }
